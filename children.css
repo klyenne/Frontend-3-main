@@ -1,0 +1,226 @@
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white; 
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.logo-menu img {
+    height: 70px;
+    width: auto;
+}
+
+.menu-elements {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 70px;
+
+}
+
+.menu-elements li {
+    display: inline;
+}
+
+.menu-elements li a {
+    text-decoration: none;
+    color: #001F3F;
+    font-family: 'Futura', Bold Condensed Oblique;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 25px;
+    padding: 10px;
+    transition: color 0.3s ease;
+
+}
+
+.menu-elements li a:hover {
+    color: #007BFF;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+}
+
+.search-icon {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="text"]::placeholder {
+    color: #bbb;
+}
+
+.shopping-cart-ikon a img{
+    width: 50px;
+    height: auto;
+}
+
+.children-menu {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0 20px;
+    position: relative; 
+}
+
+.children-menu h1 {
+    font-weight: normal;
+    margin: 0;
+}
+
+.children-elements {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;       
+    left: 50%;                
+    transform: translateX(-50%);
+}
+
+.children-elements li {
+    margin: 0 10px;
+}
+
+.children-elements li a {
+    text-decoration: none;
+    color: #001F3F;
+    font-family: 'Futura', Bold Condensed Oblique;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 25px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.children-elements li a:hover {
+    color: #007BFF;
+}
+
+.pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+  
+.first-row,
+.second-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+  
+
+
+
+.pic-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.for-school, .shoes, .clothing {
+    flex: 1;
+    text-align: start;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.for-school a, .shoes a, .clothing a{
+    text-decoration: none; 
+    font-family: 'Futura', Bold Condensed Oblique;
+    font-size: 23px;
+    color: black; 
+}
+
+.for-school a:hover, .shoes a:hover, .clothing a:hover {
+    color: #007BFF;
+}
+
+
+
+.for-school h3, .shoes h3, .clothing h3 {
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: normal;
+    margin-left: 40px;
+}
+
+
+
+.footer-menu {
+    position: relative;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin-top: 20px;
+    background: #FFFFFF;
+
+}
+.footer-logo{
+    margin-left: 20px;
+
+}
+.footer-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 70px;
+    margin-left: 450px;
+
+}
+
+.footer-elements li {
+    text-align: center;
+    display: inline;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.footer-elements li a {
+    text-decoration: none;
+    color: #001F3F;
+    font-family: 'Futura', Bold Condensed Oblique;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 25px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-elements li a:hover {
+    color: #007BFF;
+}
